@@ -7,8 +7,8 @@ public class Medico extends Pessoa implements IResponsavel{
     private String especialidade;
     private AgendaDisponibilidade agenda = new AgendaDisponibilidade();
 
-    public Medico(String nome, String cpf, String telefone, String crm,String especialidade) {
-        super(nome, cpf, telefone);
+    public Medico(String nome, String cpf, String telefone, String crm,String especialidade, String email) {
+        super(nome, cpf, telefone, email);
         this.crm = crm;
         this.especialidade = especialidade;
         

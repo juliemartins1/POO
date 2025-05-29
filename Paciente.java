@@ -1,6 +1,5 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Paciente extends Pessoa {
@@ -10,9 +9,9 @@ public class Paciente extends Pessoa {
     private List<Consulta> historicoConsultas = new ArrayList<>();
     private List<Exames> historicoExames = new ArrayList<>();
 
-    public Paciente(String nome, String cpf, String telefone, LocalDate dataNascimento, TipoGenero sexo, TipoSanguineo tipoSanguineo)
+    public Paciente(String nome, String cpf, String telefone,String email ,LocalDate dataNascimento, TipoGenero sexo, TipoSanguineo tipoSanguineo)
  {
-        super(nome, cpf, telefone);
+        super(nome, cpf, telefone,email);
         this.dataNascimento = dataNascimento;
         this.sexo = sexo;
         this.tipoSanguineo = tipoSanguineo;

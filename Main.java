@@ -32,7 +32,7 @@ public class Main {
 
            
             // 5. Criando técnico e marcando exame
-            Tecnico tecnico = new Tecnico("Roberto", "11122233344", "53998887777","pedro@gmail.com");
+            Tecnico tecnico = new Tecnico("Roberto", "11122233344", "53998887777","roberto@gmail.com");
             
 
             LocalDateTime dataExame = LocalDateTime.of(2025, 6, 1, 14, 0);

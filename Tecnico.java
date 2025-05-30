@@ -1,8 +1,8 @@
 public class Tecnico extends Pessoa implements IResponsavel {
 
     
-    public Tecnico(String nome, String cpf, String telefone) {
-      super(nome, cpf, telefone);
+    public Tecnico(String nome, String cpf, String telefone, String email) {
+      super(nome, cpf, telefone,email);
     }
      
     @Override
